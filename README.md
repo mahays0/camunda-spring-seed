@@ -8,9 +8,19 @@ Installation
 
 Download Camunda Modeler: https://camunda.org/download/modeler/
 
+Clone this project.
+
 The sample process file, showing a hiring situation, is in src/main/resources/bpmn/post_job.bpmn
 
 Run gradle bootRun (or import as a Gradle project into your IDE and run the bootRun task) to start the server on localhost:8080.
+
+The App
+=======
+
+The app features a common BPMN demo scenario where a company wants to standardize their hiring process. This is the activity diagram from Camunda Modeler:
+![alt text](./post_job.png "Business Process Model Notation for hiring a person")
+
+What's cool is that the diagram is also the code. Think on that for a moment.
 
 App in action
 =============
