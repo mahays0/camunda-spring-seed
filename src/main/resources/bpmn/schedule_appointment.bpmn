@@ -62,7 +62,7 @@
     <bpmn:userTask id="UserTask_09bx54z" name="Assess patient" camunda:assignee="${doctorName}" camunda:dueDate="${apptdate}">
       <bpmn:extensionElements>
         <camunda:formData>
-          <camunda:formField id="reason" label="Reason for visit:" type="string" defaultValue="$reason">
+          <camunda:formField id="reason" label="Reason for visit:" type="string" defaultValue="${reason}">
             <camunda:validation>
               <camunda:constraint name="readonly" config="true" />
             </camunda:validation>
